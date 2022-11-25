@@ -1,0 +1,14 @@
+block variables
+
+doctype html
+html
+    head(lang="ru")
+        title Layout
+    body
+        header
+            a(href = link) go to #{name_link}
+            if (link3)
+                a(href = link3) go to #{name_link3}
+        main
+            block content
+        footer
